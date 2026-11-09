@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+  <rect width="480" height="300" rx="16" fill="#0ea5e9"/>
+  <circle cx="90" cy="80" r="40" fill="#fef3c7" opacity="0.9"/>
+  <path d="M 0 240 L 120 150 L 220 220 L 330 130 L 480 230 L 480 300 L 0 300 Z" fill="#0369a1"/>
+  <text x="240" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="44" font-weight="800" fill="#ffffff">Académie Tenkū</text>
+  <text x="240" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#e0f2fe">24 héros originaux</text>
+</svg>
