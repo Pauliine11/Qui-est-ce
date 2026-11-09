@@ -5,10 +5,13 @@ export default defineConfig({
   test: {
     environment: "node",
     include: ["tests/**/*.test.ts"],
+    setupFiles: ["tests/setup.ts"],
   },
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "src"),
+      // Le vrai paquet lève une erreur hors React Server Components.
+      "server-only": path.resolve(import.meta.dirname, "tests/helpers/server-only-stub.ts"),
     },
   },
 });
